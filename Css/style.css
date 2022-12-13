@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    top: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+}
+
+#navbar::before {
+    content: "";
+    background: url(../img/1.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#navbar ul {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+}
+
+#navbar ul li {
+    list-style: none;
+    padding: 18px;
+}
+
+#navbar ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 0px 34px;
+}
+
+#navbar ul li a:hover {
+    background-color: #ff7200;
+    color: black;
+}
+
+#logo {
+    font-size: 1.3rem;
+}
+
+#logo h1 {
+    font-family: sans-serif;
+    color: #ff7200;
+    margin: 21px 24px;
+}
+
+#logo h1:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+#srh-btn {
+    margin: 18px;
+    margin-left: 24px;
+}
+
+#srh-btn .srh {
+    font-family: 'Baloo Bhai 2', cursive;
+    color: white;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    border-radius: 5px;
+}
+
+#srh-btn .srh:hover {
+    background: black;
+
+}
+
+#srh-btn .btn {
+    font-family: 'Baloo Bhai 2', cursive;
+    width: 100px;
+    height: 40px;
+    margin: 0px;
+    background-color: #ff7200;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+#srh-btn .btn:hover {
+    color: black;
+}
+
+#main {
+    display: flex;
+}
+
+.container {
+    position: relative;
+    color: white;
+    width: 950px;
+}
+
+.container h1 {
+    font-size: 60px;
+    padding-top: 150px;
+    padding-left: 108px;
+}
+
+h1 span {
+    font-size: 90px;
+    color: #ff7200;
+}
+
+.container .para {
+    font-size: 1.2rem;
+    padding-left: 110px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.btn2 {
+    font-size: 1.1rem;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 10px;
+    background-color: #ff7200;
+    width: 140px;
+    margin: 0px 108px;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    color: #ff7200;
+    background-color: white;
+}
+
+.form {
+    display: flex;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%);
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 34px;
+    height: 330px;
+    margin: 130px;
+}
+
+.form h2 {
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ff7200;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    color: white;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: white;
+    font-family: sans-serif;
+}
+
+.btn3 {
+    width: 243px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #ff7200;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.btn3 a {
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.btn3:hover {
+    color: black;
+    background-color: white;
+}
+
+.form p {
+    padding-top: 7px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.form p a {
+    text-decoration: none;
+    color: #ff7200;
+}
